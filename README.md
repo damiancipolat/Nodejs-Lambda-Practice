@@ -1,5 +1,5 @@
 # Nodejs-Lambda-Practice
-Examples of using nodejs in Aws Lambda functions.
+Examples of using nodejs in AWS Lambda functions.
 
 ### List of examples:
 - write_to_s3:
