@@ -1,0 +1,25 @@
+{
+  "id": "5526665b-ae75-4a64-8586-b3e51c7fdee4",
+  "firstName": "FIRSTNAMEHERE",
+  "lastName": "LASTNAMEHERE",
+  "company": "The FIRSTNAMEHERE LASTNAMEHERE Company",
+  "email": "test@test.com",
+  "property": {
+    "address": {
+      "street": "1234 Test Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103"
+    },
+    "isNewConstruction": false,
+    "prequalificationStatus": null,
+    "prequalified": false
+  },
+  "credit": {
+    "pullApplicantOnly": true,
+    "triggerPull": true,
+    "prequalificationStatus": "No Match"
+  },
+  "product": "HomeOwner",
+  "profileId": "0073b8ae-4b01-4c93-9085-099df22d39a2"
+}
