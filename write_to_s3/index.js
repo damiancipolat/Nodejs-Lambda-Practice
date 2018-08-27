@@ -4,6 +4,11 @@ const s3 = new AWS.S3();
 //Custom path.
 const bucketName = 'cipolat-bucket';
 
+//Get full path into the bucket.
+const getKeyName = (folder, filename)=>{
+  return folder + '/' + filename;
+}
+
 //Lambda function
 exports.handler = (event, context, callback) => {
 
@@ -11,7 +16,7 @@ exports.handler = (event, context, callback) => {
       
   let params  = {
     Bucket: bucketName, 
-    Key:    bucketName+'/node-test',
+    Key:    getKeyName('node-test','test.txt'),
     Body:   content 
   };
       
@@ -20,7 +25,7 @@ exports.handler = (event, context, callback) => {
     if (err)
         console.log(err)
     else
-        console.log("Successfully saved object to " + bucketName + "/" + keyName);
+        console.log("Successfully saved object to " + bucketName + '/node-test');
 
   });
 
