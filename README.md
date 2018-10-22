@@ -15,3 +15,7 @@ Examples of using nodejs in AWS Lambda functions.
 - read_to_s3_json:
 
   Example of a lambda function, that read a s3 file from a bucket, and validate the format of the json data into the file.
+  
+ - log_cloudWatch:
+
+Example loggin to cloudwatch and creating a custom metrics.
